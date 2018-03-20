@@ -5,7 +5,7 @@
 
 'use strict'
 
-const Parser = require('date-holidays-parser')
+const Parser = require('@oscarbarrett/date-holidays-parser')
 const data = require('../data/holidays.json')
 
 /**

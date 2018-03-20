@@ -12,7 +12,7 @@ var _omit = require('lodash.omit')
 
 var REGEX = /^([A-Z]+)\.yaml$/
 
-var dirParser = path.dirname(require.resolve('date-holidays-parser'))
+var dirParser = path.dirname(require.resolve('@oscarbarrett/date-holidays-parser'))
 
 var config = {
   dirname: resolve(__dirname, '..', 'data'),
